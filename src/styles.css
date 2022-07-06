@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #23252c;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 5% 35%;
+}
+
+.display-pic {
+  width: 100%;
+}
+
+.content {
+  background-color: #1a1b21;
+  margin-top: -0.2rem;
+  padding: 2rem;
+}
+
+.intro-texts {
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.job {
+  color: #f3bf99;
+  padding-top: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.website {
+  color: #f5f5f5;
+  font-size: 0.7rem;
+  padding: 1rem 0;
+}
+
+.contact-cta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.btn.email {
+  padding: 10px 30px;
+  background-color: #d1d5db;
+}
+
+.btn.linkedIn {
+  background-color: #5093e2;
+  color: #ffffff;
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+  margin-bottom: -3px;
+  margin-right: 8px;
+}
+
+.more-info {
+  padding: 1rem 0;
+}
+
+.about {
+  padding: 1rem 0;
+}
+
+h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.more-info-text {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #dcdcdc;
+}
+
+footer {
+  background-color: #161619;
+  width: 100%;
+}
+
+.socials {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  margin: 0 15px;
+  font-size: 2rem;
+  color: #161619;
+  background-color: #918e9b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 15%;
+    display: grid;
+    place-items: center;
+  }
+}
