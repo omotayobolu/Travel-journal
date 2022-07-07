@@ -5,8 +5,9 @@ import Data from "./components/Data";
 
 export default function App() {
   const details = Data.map((item) => {
-    return <Main item={item} />;
+    return <Main key={item.id} item={item} />;
   });
+
   return (
     <div>
       <Navbar />
