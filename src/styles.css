@@ -15,6 +15,7 @@ body {
 h1 {
   font-size: 1.8rem;
   padding: 5px 0 20px 0;
+  color: #2b283a;
 }
 
 nav {
@@ -46,18 +47,21 @@ nav {
 }
 
 .main-content-1 > * {
-  padding: 0 5px;
+  margin: 0 5px;
 }
 
 .country {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.8rem;
+  color: #2b283a;
 }
 
 .map {
-  color: #ccc;
   font-size: 0.9rem;
+  color: #918e9b;
+  text-decoration: none;
+  border-bottom: 1px solid #918e9b;
 }
 
 .date {
@@ -67,6 +71,7 @@ nav {
 .description {
   font-size: 0.8rem;
   padding-top: 10px;
+  color: #2b283a;
 }
 
 @media (max-width: 768px) and (min-width: 320px) {

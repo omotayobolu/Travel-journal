@@ -23,6 +23,7 @@ export default function Main(props) {
           <p className="description">{props.item.description}</p>
         </div>
       </div>
+      <hr />
     </section>
   );
 }
